@@ -7,7 +7,7 @@ $(document).ready(function (){
 	// create an h1 element
 	var h1 = document.createElement("h1");
 	// set h1 text to hi
-	h1.innerText = 'Hi';
+	h1.innerHTML = 'Hi';
 	// add h1 to the h1div
 	document.getElementById('h1div').appendChild(h1);
 
